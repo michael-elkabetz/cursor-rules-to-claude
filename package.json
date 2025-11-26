@@ -1,0 +1,27 @@
+{
+  "name": "cursor-rules-to-claude",
+  "version": "1.0.0",
+  "description": "Aggregates cursor rules and generates CLAUDE.md using Anthropic API",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc && node scripts/create-executable.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "glob": "^10.3.10",
+    "js-tiktoken": "^1.0.21",
+    "openai": "^6.9.1"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
