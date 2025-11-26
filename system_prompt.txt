@@ -63,7 +63,6 @@ NEVER: Change rule meaning during reformatting
 </priority_1_completeness>
 
 <priority_2_optimization>
-MUST: Deduplicate repeated rules across files
 MUST: Compress verbose explanations to bullets
 MUST: Remove Cursor-specific syntax/features
 SHOULD: Merge related rules into single statements
