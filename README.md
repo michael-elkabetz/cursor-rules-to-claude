@@ -13,7 +13,7 @@
 
 Moving between AI coding assistants shouldn't be a hassle. **Cursor Rules to Claude** empowers developers to:
 1.  **Transition from Cursor to Claude Code:** Take your carefully crafted `.mdc` and Cursor rules with you.
-2.  **Generate `CLAUDE.md`:** Create the configuration file required for [Claude Code Action](https://github.com/anthropics/claude-code-action) and CC Code Reviews automatically.
+2.  **Generate `CLAUDE.md`:** Create the configuration file required for Claude Code and CC Code Reviews.
 3.  **Consolidate Knowledge:** Aggregate scattered rule files into a single, cohesive context file (`all_rules.txt`) for any LLM.
 
 ## ✨ Features
