@@ -46,7 +46,7 @@ Moving between AI coding assistants shouldn't be a hassle. **Cursor Rules to Cla
 3.  **Configure Environment:**
     Create a `.env` file in the root directory:
     ```env
-    # Required: Choose one (Anthropic is preferred for CLAUDE.md generation)
+    # Required: Choose one
     ANTHROPIC_API_KEY=sk-ant-...
     # OR
     OPENAI_API_KEY=sk-proj-...
