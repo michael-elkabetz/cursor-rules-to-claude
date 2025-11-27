@@ -80,7 +80,7 @@ export function createAIService(): { service: AIService, vendor: string, model: 
     let vendor = '';
     let service: AIService;
     let model = '';
-    const maxTokens = parseInt(process.env.MAX_TOKENS || '20000', 10);
+    const maxTokens = parseInt(process.env.MAX_TOKENS || '32000', 10);
 
     if (openaiKey && !anthropicKey) {
         vendor = 'openai';
